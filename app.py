@@ -54,6 +54,7 @@ def create_docx(paragraphs, filename):
 def main():
     st.set_page_config(page_title="Formatador ABNT", layout="wide")
     st.title("📄 Formatador de Peças Processuais - ABNT")
+    st.header("by Cariolano")
 
     uploaded_file = st.file_uploader("📎 Selecione o arquivo .txt", type="txt")
 
